@@ -51,8 +51,8 @@ public class j1 extends javax.swing.JFrame {
         getContentPane().add(jToggleButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 190, 90, 30));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 48)); // NOI18N
-        jLabel1.setText("LOGIN FORM");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 30, 370, 40));
+        jLabel1.setText("KAPEHAN NI CADAG");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 30, 470, 40));
 
         jButton1.setText("CANCEL");
         jButton1.addActionListener(new java.awt.event.ActionListener() {

@@ -230,10 +230,17 @@ public class j3 extends javax.swing.JFrame {
         
         int cash = Integer.parseInt(txt7.getText());
         double change = cash - tax;
-        
+       
+        if (change < 1)
+        {
+            JOptionPane.showMessageDialog(null,"insuficient cash", "menu", JOptionPane.ERROR_MESSAGE);
+        txt8.setText("" + change);
+        }
+        else
+        {
         JOptionPane.showMessageDialog(null,"order success", "menu", JOptionPane.INFORMATION_MESSAGE);
         txt8.setText("" + change);
-        
+        }
         
     }//GEN-LAST:event_jButton2ActionPerformed
 
