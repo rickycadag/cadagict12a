@@ -1,3 +1,6 @@
+
+import javax.swing.JOptionPane;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -25,121 +28,209 @@ public class j3 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jButton3 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
-        jTextField11 = new javax.swing.JTextField();
+        txt7 = new javax.swing.JTextField();
         jLabel18 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
-        jTextField10 = new javax.swing.JTextField();
-        jTextField9 = new javax.swing.JTextField();
-        jTextField7 = new javax.swing.JTextField();
-        jTextField8 = new javax.swing.JTextField();
-        jLabel15 = new javax.swing.JLabel();
+        txt6 = new javax.swing.JTextField();
+        txt8 = new javax.swing.JTextField();
+        txt4 = new javax.swing.JTextField();
+        txt5 = new javax.swing.JTextField();
         jLabel16 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField3 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
+        txt1 = new javax.swing.JTextField();
+        txt3 = new javax.swing.JTextField();
+        txt2 = new javax.swing.JTextField();
         jLabel11 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton2.setText("order");
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 220, 80, -1));
-        getContentPane().add(jTextField11, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 230, 90, -1));
+        jButton3.setText("order");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 410, 90, -1));
+
+        jButton2.setText("pay");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 620, 90, -1));
+        getContentPane().add(txt7, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 550, 90, -1));
 
         jLabel18.setText("cash");
-        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 210, 50, -1));
+        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 530, 50, -1));
 
         jLabel17.setText("sub total");
-        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 160, -1, -1));
-        getContentPane().add(jTextField10, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 180, 90, -1));
-        getContentPane().add(jTextField9, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 180, 80, -1));
-        getContentPane().add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 250, 90, -1));
+        getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 600, -1, -1));
+        getContentPane().add(txt6, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 620, 90, -1));
+        getContentPane().add(txt8, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 590, 90, -1));
+        getContentPane().add(txt4, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 540, 90, -1));
 
-        jTextField8.addActionListener(new java.awt.event.ActionListener() {
+        txt5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField8ActionPerformed(evt);
+                txt5ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 140, 90, -1));
-
-        jLabel15.setText("amount");
-        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 110, 60, 20));
+        getContentPane().add(txt5, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 570, 90, -1));
 
         jLabel16.setText("change");
-        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 160, 40, -1));
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 570, 50, -1));
 
         jLabel13.setText("quantity");
-        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 230, 70, -1));
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 510, 70, -1));
 
         jLabel14.setText("imput choice");
-        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 110, -1, -1));
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 380, -1, -1));
 
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        txt1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                txt1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 140, 90, -1));
-        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 200, 90, -1));
-        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 170, 90, -1));
+        getContentPane().add(txt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 410, 90, -1));
+        getContentPane().add(txt3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 470, 90, -1));
+        getContentPane().add(txt2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 440, 90, -1));
 
-        jLabel1.setText("[s5] ensaymada 30");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 40, 110, -1));
-
-        jLabel2.setText("[s3] putok 30");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 40, 80, -1));
-
-        jLabel3.setText("[s2] monay 30");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 40, 80, -1));
-
-        jLabel4.setText("[s4] kababayan 30");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 40, 110, -1));
-
-        jLabel5.setText("[s1] pandesal 30");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, 90, 20));
-
-        jLabel6.setText("[d] latte 60");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 70, 70, -1));
-
-        jLabel7.setText("[d1] black coffee  60");
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 70, 110, -1));
-
-        jLabel8.setText("[d2] americano 60");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 70, 100, -1));
-
-        jLabel9.setText("[d3] espresso 60");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 70, 90, -1));
-
-        jLabel10.setText("[d4] mocha 60");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 70, 90, -1));
-
-        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\CL3-PC16\\Desktop\\c1.jpg")); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\CL3-PC16\\Desktop\\Peach Brown Elegant Minimalist Cookie Menu 5.jpg")); // NOI18N
         jLabel11.setText("jLabel11");
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 620, 360));
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 670, 930));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void txt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_txt1ActionPerformed
 
-    private void jTextField8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField8ActionPerformed
+    private void txt5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt5ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField8ActionPerformed
+    }//GEN-LAST:event_txt5ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        
+        
+        int ord = Integer.parseInt(txt1.getText());
+        int quant = Integer.parseInt(txt4.getText());
+        double bat = 12;
+        
+        txt2.setEditable(false);
+        txt3.setEditable(false);
+        
+        if (ord == 1)
+        {
+         JOptionPane.showMessageDialog(null,"your order is classic cookie ","menu", JOptionPane.INFORMATION_MESSAGE );
+         int total = quant * 40;
+         txt2.setText("classic cookie");
+         txt3.setText("40");
+         txt5.setText("" + total);
+        }
+       else if (ord == 2)
+        {
+         JOptionPane.showMessageDialog(null,"your order is chocholate cookie ","menu", JOptionPane.INFORMATION_MESSAGE );
+         int total = quant * 40;
+         txt2.setText("chocolate cookie");
+         txt3.setText("40");
+         txt5.setText("" + total);
+        }
+        else if (ord == 3)
+        {
+         JOptionPane.showMessageDialog(null,"your order is oatmeal cookie ","menu", JOptionPane.INFORMATION_MESSAGE );
+         int total = quant * 50;
+         txt2.setText("oatmeal cookie");
+         txt3.setText("50");
+         txt5.setText("" + total);
+        }
+        else if (ord == 4)
+        {
+         JOptionPane.showMessageDialog(null,"your order is cheese cake ","menu", JOptionPane.INFORMATION_MESSAGE );
+         int total = quant * 100;
+         txt2.setText("cheese cake");
+         txt3.setText("100");
+         txt5.setText("" + total);
+        }
+        else if (ord == 5)
+        {
+         JOptionPane.showMessageDialog(null,"your order is macaron ","menu", JOptionPane.INFORMATION_MESSAGE );
+         int total = quant * 60;
+         txt2.setText("macaron");
+         txt3.setText("60");
+         txt5.setText("" + total);
+        }
+        else if (ord == 6)
+        {
+         JOptionPane.showMessageDialog(null,"your order is black coffee ","menu", JOptionPane.INFORMATION_MESSAGE );
+         int total = quant * 70;
+         txt2.setText("black coffee");
+         txt3.setText("70");
+         txt5.setText("" + total);
+        }
+        else if (ord == 7)
+        {
+         JOptionPane.showMessageDialog(null,"your order is americano ","menu", JOptionPane.INFORMATION_MESSAGE );
+         int total = quant * 80;
+         txt2.setText("americano");
+         txt3.setText("80");
+         txt5.setText("" + total);
+        }
+        else if (ord == 8)
+        {
+         JOptionPane.showMessageDialog(null,"your order is espresso ","menu", JOptionPane.INFORMATION_MESSAGE );
+         int total = quant * 90;
+         txt2.setText("espresso");
+         txt3.setText("90");
+         txt5.setText("" + total);
+        }
+        else if (ord == 9)
+        {
+         JOptionPane.showMessageDialog(null,"your order is mocha ","menu", JOptionPane.INFORMATION_MESSAGE );
+         int total = quant * 90;
+         txt2.setText("mocha");
+         txt3.setText("90");
+         txt5.setText("" + total);
+        }
+        else if (ord == 10)
+        {
+         JOptionPane.showMessageDialog(null,"your order is latte ","menu", JOptionPane.INFORMATION_MESSAGE );
+         int total = quant * 80;
+         txt2.setText("latte");
+         txt3.setText("80");
+         txt5.setText("" + total);
+        }
+        
+        
+        
+        
+        
+        
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        
+        int total = Integer.parseInt(txt5.getText());
+        double vat = 12;
+        double x = vat/100;
+        double vatT = x * total;
+        double tax =vatT + total;
+        txt6.setText("" + tax);
+        
+        int cash = Integer.parseInt(txt7.getText());
+        double change = cash - tax;
+        
+        JOptionPane.showMessageDialog(null,"order success", "menu", JOptionPane.INFORMATION_MESSAGE);
+        txt8.setText("" + change);
+        
+        
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -178,30 +269,20 @@ public class j3 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton2;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
+    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField10;
-    private javax.swing.JTextField jTextField11;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField7;
-    private javax.swing.JTextField jTextField8;
-    private javax.swing.JTextField jTextField9;
+    private javax.swing.JTextField txt1;
+    private javax.swing.JTextField txt2;
+    private javax.swing.JTextField txt3;
+    private javax.swing.JTextField txt4;
+    private javax.swing.JTextField txt5;
+    private javax.swing.JTextField txt6;
+    private javax.swing.JTextField txt7;
+    private javax.swing.JTextField txt8;
     // End of variables declaration//GEN-END:variables
 }

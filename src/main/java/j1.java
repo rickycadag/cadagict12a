@@ -1,3 +1,6 @@
+
+import javax.swing.JOptionPane;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
@@ -25,7 +28,7 @@ public class j1 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        user = new javax.swing.JTextField();
+        txt1 = new javax.swing.JTextField();
         pass = new javax.swing.JPasswordField();
         jToggleButton1 = new javax.swing.JToggleButton();
         jLabel1 = new javax.swing.JLabel();
@@ -37,8 +40,8 @@ public class j1 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(204, 255, 204));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        getContentPane().add(user, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 90, 350, 30));
-        getContentPane().add(pass, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 130, 350, 30));
+        getContentPane().add(txt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 90, 350, 30));
+        getContentPane().add(pass, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 130, 350, 30));
 
         jToggleButton1.setText("LOG IN");
         jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -46,7 +49,7 @@ public class j1 extends javax.swing.JFrame {
                 jToggleButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jToggleButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 190, 90, 30));
+        getContentPane().add(jToggleButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 190, 90, 30));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 48)); // NOI18N
         jLabel1.setText("LOGIN FORM");
@@ -58,7 +61,7 @@ public class j1 extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 190, 80, 30));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 190, 80, 30));
 
         jLabel2.setText("USERNAME");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, 70, 20));
@@ -75,11 +78,17 @@ public class j1 extends javax.swing.JFrame {
 
     private void jToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton1ActionPerformed
         // TODO add your handling code here:
+        String username = txt1.getText();
+        String password = new String(pass.getPassword());
         
-        user.setEditable(false);
-        pass.setEditable(false);
-        this.dispose();
+        if (username.equals("123")&&password.equals("123"));
+        
+        {
+            JOptionPane.showMessageDialog(null, "login successfully");
         new j2 ().setVisible(true);
+        this.dispose();
+        }
+        
     }//GEN-LAST:event_jToggleButton1ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -130,6 +139,6 @@ public class j1 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JToggleButton jToggleButton1;
     private javax.swing.JPasswordField pass;
-    private javax.swing.JTextField user;
+    private javax.swing.JTextField txt1;
     // End of variables declaration//GEN-END:variables
 }

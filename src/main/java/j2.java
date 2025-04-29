@@ -38,7 +38,7 @@ public class j2 extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 310, 110, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 770, 110, -1));
 
         jButton1.setText("log out");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -46,11 +46,10 @@ public class j2 extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 360, 110, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 770, 110, -1));
 
-        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\CL3-PC16\\Desktop\\Coffee Cup Background Youtube Thumbnail.jpg")); // NOI18N
-        jLabel11.setText("jLabel11");
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, 1276, -1));
+        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\CL3-PC16\\Desktop\\Peach Brown Elegant Minimalist Cookie Menu 3.jpg")); // NOI18N
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, -70, 1060, 1030));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
