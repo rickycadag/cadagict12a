@@ -5,7 +5,6 @@ import javax.swing.JOptionPane;
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-
 /**
  *
  * @author CL3-PC16
@@ -80,15 +79,25 @@ public class j1 extends javax.swing.JFrame {
         // TODO add your handling code here:
         String username = txt1.getText();
         String password = new String(pass.getPassword());
+
+        if (username.isEmpty() || password.isEmpty()) {
+
         
-        if (username.equals("123")&&password.equals("123"));
-        
-        {
-            JOptionPane.showMessageDialog(null, "login successfully");
-        new j2 ().setVisible(true);
-        this.dispose();
-        }
-        
+            JOptionPane.showMessageDialog(this, "please enter both username and password", "error", JOptionPane.ERROR_MESSAGE);
+
+        }else{
+      
+       
+                 
+                    JOptionPane.showMessageDialog(null, "login successfully");
+                    txt1.setEnabled(false);
+                    pass.setEnabled(false);
+                    this.dispose();
+                    new j2().setVisible(true);
+
+                }
+
+
     }//GEN-LAST:event_jToggleButton1ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed

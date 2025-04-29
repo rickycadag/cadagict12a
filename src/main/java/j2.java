@@ -49,7 +49,7 @@ public class j2 extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 770, 110, -1));
 
         jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\CL3-PC16\\Desktop\\Peach Brown Elegant Minimalist Cookie Menu 3.jpg")); // NOI18N
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, -70, 1060, 1030));
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -70, 1060, 1030));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

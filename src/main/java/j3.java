@@ -63,15 +63,15 @@ public class j3 extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 620, 90, -1));
-        getContentPane().add(txt7, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 550, 90, -1));
+        getContentPane().add(txt7, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 530, 90, -1));
 
         jLabel18.setText("cash");
-        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 530, 50, -1));
+        getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 510, 50, -1));
 
         jLabel17.setText("sub total");
         getContentPane().add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 600, -1, -1));
         getContentPane().add(txt6, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 620, 90, -1));
-        getContentPane().add(txt8, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 590, 90, -1));
+        getContentPane().add(txt8, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 580, 90, -1));
         getContentPane().add(txt4, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 540, 90, -1));
 
         txt5.addActionListener(new java.awt.event.ActionListener() {
@@ -82,7 +82,7 @@ public class j3 extends javax.swing.JFrame {
         getContentPane().add(txt5, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 570, 90, -1));
 
         jLabel16.setText("change");
-        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 570, 50, -1));
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 560, 50, -1));
 
         jLabel13.setText("quantity");
         getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 510, 70, -1));
