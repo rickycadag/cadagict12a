@@ -208,7 +208,12 @@ public class j3 extends javax.swing.JFrame {
         
         
         
-        
+           int total = Integer.parseInt(txt5.getText());
+        double vat = 12;
+        double x = vat/100;
+        double vatT = x * total;
+        double tax =vatT + total;
+        txt6.setText("" + tax);
         
         
     }//GEN-LAST:event_jButton3ActionPerformed
